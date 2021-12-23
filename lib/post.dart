@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Container post(String profile, name, link) {
+Widget post(String profile, name, link) {
   return Container(
     width: double.infinity,
     child: Column(

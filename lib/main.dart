@@ -28,29 +28,27 @@ class MyApp extends StatelessWidget {
                       image: NetworkImage(
                           'https://babettescafe.com/wp-content/uploads/2019/03/facebook-logo-full-transparent.png',
                           scale: 17)),
-                  Container(
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.search,
-                          size: 30,
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Icon(
-                          CupertinoIcons.bell,
-                          size: 30,
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Image(
-                            image: NetworkImage(
-                                'https://cdn.iconscout.com/icon/free/png-256/messenger-2999859-2492725.png',
-                                scale: 9))
-                      ],
-                    ),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.search,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon(
+                        CupertinoIcons.bell,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon(
+                        CupertinoIcons.chat_bubble,
+                        size: 30,
+                      ),
+                    ],
                   )
                 ],
               ),
